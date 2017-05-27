@@ -1,7 +1,7 @@
 baseurl = "https://aead.github.io"
 languageCode = "en"
 title = "Andreas Auernhammer"
-copyright = "&copy; 2017"
+copyright = "Built with <a href=\"https://gohugo.io/\">Hugo</a> and ❤"
 
 #disqusShortname = "shortname"
 #googleAnalytics = "trackingcode"
@@ -14,9 +14,10 @@ tag = "tags"
 category = "categories"
 
 [params]
-description = "Your description here"
-keywords = ["hallo", "keyword 2", "keyword 3"]
+description = ""
+keywords = ["Blogging"]
 author = "Andreas Auernhammer"
+displayauthor = true
 sharingicons = false
 
 [params.highlight]
@@ -42,7 +43,3 @@ fa_icon = "fa-rss"
 [[params.social]]
 url = "/about"
 fa_icon = "fa-info"
-
-[[params.socialshare]]
-url = "https://linkedin.com/in/mgjohansen"
-fa_icon = "fa-linkedin-square"
