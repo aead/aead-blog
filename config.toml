@@ -1,0 +1,47 @@
+baseurl = "aead.github.io"
+languageCode = "en"
+title = "Andreas Auernhammer"
+copyright = "&copy; 2017"
+
+#disqusShortname = "shortname"
+#googleAnalytics = "trackingcode"
+
+theme = "hucore"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "Your description here"
+keywords = ["hallo", "keyword 2", "keyword 3"]
+author = "Andreas Auernhammer"
+sharingicons = false
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/aead"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/_aead_"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "mailto:aead@mail.de"
+fa_icon = "fa-envelope"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.social]]
+url = "/about"
+fa_icon = "fa-info"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/mgjohansen"
+fa_icon = "fa-linkedin-square"
