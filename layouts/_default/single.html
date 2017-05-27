@@ -3,9 +3,7 @@
 {{ partial "nav" . }}
 <section class="section">
   <div class="container">
-    <p>
-      <h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
-    </p>
+    <h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
     <h1 class="title">{{ .Title }}</h1>
     {{ if .Params.tags }}
       {{ partial "tags" .Params.tags }}
