@@ -1,4 +1,4 @@
-baseurl = "aead.github.io"
+baseurl = "https://aead.github.io"
 languageCode = "en"
 title = "Andreas Auernhammer"
 copyright = "&copy; 2017"
