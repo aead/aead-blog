@@ -1,9 +1,6 @@
 <section class="section">
   <div class="container">
     <nav class="nav">
-      <div class="nav-left">
-        <a class="nav-item" href="{{ .Site.BaseURL }}"><h1 class="title is-3">{{ .Title }}</h1></a>
-      </div>
       <div class="nav-right">
         <nav class="nav-item level is-mobile">
           {{ range .Site.Params.social }}
@@ -17,7 +14,8 @@
       </div>
     </nav>
     <div>
-      <h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
+        <a href="{{ .Site.BaseURL }}"><h1 class="title is-3">{{ .Title }}</h1></a>
+        <h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
     </div>
   </div>
 </section>
