@@ -79,7 +79,7 @@ can use bit arithmetic in assembly as well but there is also another technique.
 ### Conditional instruction - CMOV
 
 To understand how we can implement constant time algorithms with conditional instructions we have to know how modern processors 
-execute instructions first - no panic just conventionally :wink: - I will omit many details now to keep things simple.  
+execute instructions first - no panic just conceptually :wink: - I will omit many details now to keep things simple.  
 A modern CPU tries to execute one (or more) instruction per clock signal. Unfortunately the processor must fetch and decode 
 every instruction before it can be executed. The fetching and decoding takes time and slows the CPU down. Therefore CPU-designers
 introduced the concept of a pipeline. The pipeline holds executable instructions and the CPU consumes one instruction after the other. This 
@@ -164,4 +164,4 @@ I have looked at:
  - [LibreSSL](https://github.com/libressl-portable/openbsd/tree/master/src/lib/libcrypto/curve25519) also no Curve25519 assembly implementations
  - [NSS](https://github.com/nss-dev/nss/blob/b92d9aa631801620193ed07830295c3750aa6386/lib/freebl/ecl/curve25519_64.c) also no Curve25519 assembly implementations
 
-So if you are familiar with ECC and have some experience in writing assembler and you way want to help them out, they need you!
+So if you are familiar with ECC and have some experience in writing assembler you way want to help them out, they need you!

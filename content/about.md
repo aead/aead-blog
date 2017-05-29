@@ -5,7 +5,7 @@ menu = "main"
 +++
 
 I am Andreas Auernhammer, an undergraduate at the technical university (TU) Darmstadt, Germany. I am 
-interested in cryptography, infrastructure technology and basically everthing that runs the internet. 
+interested in cryptography, infrastructure technology and basically everything that runs the internet. 
 That is why I write software in Go, Rust, C and Assembly, use Linux and try to make things at least not worse. :wink:
 
 I believe in the power of OSS and a free and open community - so I have spent / will spend some time with contributing to various open source projects like Go or BoringSSL. 
